@@ -87,8 +87,9 @@ int main() {
 
     cam.aspect_ratio = 16.0 / 9.0;
     cam.image_width = 1200;
-    cam.samples_per_pixel = 50;
-    cam.max_depth = 10;
+    //crank samples to 500 for a nice crisp slow render, or leave at 10 for good iteration time
+    cam.samples_per_pixel = 10;
+    cam.max_depth = 50;
 
     cam.vfov = 20;
     cam.lookfrom = point3(13, 2, 3);
