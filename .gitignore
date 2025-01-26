@@ -1,3 +1,9 @@
+# Project specific
+.DS_Store
+image.ppm
+build/
+
+# Generic C++ .gitignore ...
 # Prerequisites
 *.d
 
@@ -30,5 +36,3 @@
 *.exe
 *.out
 *.app
-.DS_Store
-image.ppm
