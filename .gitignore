@@ -2,6 +2,8 @@
 .DS_Store
 image.ppm
 build/
+out/
+.vs
 
 # Generic C++ .gitignore ...
 # Prerequisites
